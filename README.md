@@ -21,7 +21,7 @@ Ensure the following requirements have been met:
 1. **Clone the Repository**:
 git clone https://github.com/RudyDanda/ecalendar_webscraper.git
 cd ecalendar_webscraper
-2. **Modify the arguments in the main file**: Enter the year range you want to receive data in the main file
+2. **Modify the arguments in the main file**: Enter the year range you want to receive data in the main file. It is recommended to scrape data 1 year at a time to ensure no potential network errors.
 3. **Run the Scraper**: python main.py
 4. **Output**:
 The data will be saved in a XLSX file named `economic_data.xlsx` in the current directory.
